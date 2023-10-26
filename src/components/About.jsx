@@ -1,6 +1,7 @@
 import React from "react";
 // import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import classes from './About.module.css'
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -53,7 +54,7 @@ const About = () => {
           real-world problems. Let's work together to bring your ideas to life!
         </motion.p>
 
-        <div className="mt-20 flex  gap-10">
+        <div className={classes.gg}>
           {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />
           ))}
