@@ -85,7 +85,7 @@ const Contact = () => {
             />
             <p className="text-white font-medium ml-4">
               <a
-                href="https://drive.google.com/file/d/198iwteRzWTUN-r-iQHr9g-nPykQVkQec/view?usp=sharing"
+                href="https://drive.google.com/file/d/170kvTPmZ1obQBUBKlN9-a-z_eDOpE1pU/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
