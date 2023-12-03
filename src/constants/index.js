@@ -31,6 +31,7 @@ import {
   carrent,
   threads,
   launcheazy,
+  launcheazylogo,
   virtushop,
   jobit,
   tripguide,
@@ -135,51 +136,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "SDE Intern",
+    title: "SDE",
+    company_name: "Launcheazy",
+    icon: launcheazylogo,
+    iconBg: "white",
+    date: "Nov 2023 - current",
+    points: [
+      "Building the core product for the company using NextJS , Redux , ReactJS , Sass , Javascript, GrapesJS",
+      "Developing a digital marketplace frontend, showcasing a range of templates that empower users to streamline marketing efforts, simplifying the process for them"
+    ],
+  },
+{
+  title: "SDE Intern",
     company_name: "Edyoda",
-    icon: edyoda,
-    iconBg: "white",
-    date: "August 2023 - Present",
-    points: [
-      "Implemented optimizations that significantly reduced API call latency, enhancing user experience.",
-      "Designed and developed pages, features, and components from the ground up, playing a pivotal role in the successful launch of new products for the company.",
-      "Introduced a range of innovative components and features, including tooltips, pagination, and UI enhancements for the job platform.",
-    ],
+      icon: edyoda,
+        iconBg: "white",
+          date: "Aug 2023 - Nov 2023",
+            points: [
+              "Implemented optimizations that significantly reduced API call latency, enhancing user experience.",
+              "Designed and developed pages, features, and components from the ground up, playing a pivotal role in the successful launch of new products for the company.",
+              "Introduced a range of innovative components and features, including tooltips, pagination, and UI enhancements for the job platform.",
+            ],
   },
-  {
-    title: "Assciate Software Engineer",
+{
+  title: "Assciate Software Engineer",
     company_name: "Virtusa",
-    icon: virtusa,
-    iconBg: "#1a0c5f",
-    date: "Jan 2023 - July 2023",
-    points: [
-      "Developed responsive and user-friendly interfaces using modern front-end frameworks such as ReactJS",
-      "Designing and implementing RESTful APIs and integrating them with databases using technologies like Node.js, Express, and MongoDB.",
-      "Enhanced user experience by resolving API call latency , fixed bugs. ",
-    ],
+      icon: virtusa,
+        iconBg: "#1a0c5f",
+          date: "Jan 2023 - July 2023",
+            points: [
+              "Developed responsive and user-friendly interfaces using modern front-end frameworks such as ReactJS",
+              "Designing and implementing RESTful APIs and integrating them with databases using technologies like Node.js, Express, and MongoDB.",
+              "Enhanced user experience by resolving API call latency , fixed bugs. ",
+            ],
   },
-  {
-    title: "Machine Learning Engineer",
+{
+  title: "Machine Learning Engineer",
     company_name: "TeknoGeeks",
-    icon: teknogeeks,
-    iconBg: "black",
-    date: "Apr 2022 - July 2023",
-    points: [
-      "Developed and implemented state-of-the-art neural networks, BERT models, and NLP techniques, resulting in a 15% increase in accuracy for sentiment analysis.",
-      "Leveraged TensorFlow and Keras to build robust and efficient models ,significantly reducing training time by 20%",
-      "Collaborated with a team of data scientists to tackle complex problems, resulting in the successful development of a chatbot with 90% customer satisfaction rating.",
-    ],
+      icon: teknogeeks,
+        iconBg: "black",
+          date: "Apr 2022 - July 2023",
+            points: [
+              "Developed and implemented state-of-the-art neural networks, BERT models, and NLP techniques, resulting in a 15% increase in accuracy for sentiment analysis.",
+              "Leveraged TensorFlow and Keras to build robust and efficient models ,significantly reducing training time by 20%",
+              "Collaborated with a team of data scientists to tackle complex problems, resulting in the successful development of a chatbot with 90% customer satisfaction rating.",
+            ],
   },
-  {
-    title: "Skill Development Trainee",
-    company_name: "Zensar",
-    icon: zensar,
-    iconBg: "white",
-    date: "Aug 2022 - Mar 2023",
-    points: [
-      "Recieved training from industry professionals on technologies like Java , SQL & Soft Skills.",
-    ],
-  },
+
 ];
 
 const testimonials = [

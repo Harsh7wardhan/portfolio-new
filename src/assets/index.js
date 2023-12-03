@@ -33,6 +33,7 @@ import teknogeeks from "./company/teknogeeks.png";
 import zensar from "./company/zensar.png";
 import data from './data.png'
 import business from './business.png'
+import launcheazylogo from './company/launcheazy_logo.jpeg'
 
 import edyoda from "./company/edyoda.jpg";
 import dsa from "./connection.png";
@@ -62,6 +63,7 @@ export {
   mobile,
   web,
   launcheazy,
+  launcheazylogo,
   github,
   menu,
   close,
