@@ -1,7 +1,7 @@
 import React from "react";
 // import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import classes from './About.module.css'
+import classes from "./About.module.css";
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -47,11 +47,16 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I'm a full-stack developer skilled in building frontend applications
+          from the ground up and crafting backend microservices. With expertise
+          in TypeScript, ReactJS, NextJS, NodeJS, and SQL, I've also worked with
+          technologies like WebSockets, Kafka, and WebRTC. Currently, I work on
+          products that enhance lead capture and conversion, leveraging AI to
+          transform customer experiences. A quick learner and a strong
+          collaborator, I partner closely with clients to deliver scalable,
+          user-friendly solutions that address real-world challenges. Let's
+          bring your vision to life together!<br></br>
+          Here are my top skills !
         </motion.p>
 
         <div className={classes.gg}>

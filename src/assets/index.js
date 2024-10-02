@@ -29,6 +29,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import virtusa from "./company/virtusa.jpeg";
+import omind from './omind.jpeg'
+import cx from './cx.png';
+import bot from './bot.png';
+import assist from './assist.png'
 import teknogeeks from "./company/teknogeeks.png";
 import zensar from "./company/zensar.png";
 import data from './data.png'
@@ -49,6 +53,9 @@ import ml from "./coding.png";
 import webnew from "./webNew.png";
 
 export {
+  cx,
+  bot,
+  assist,
   logo,
   dsa,
   webnew,
@@ -87,6 +94,7 @@ export {
   zensar,
   teknogeeks,
   virtusa,
+  omind,
   edyoda,
   tesla,
   carrent,

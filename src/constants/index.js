@@ -25,6 +25,7 @@ import {
   starbucks,
   teknogeeks,
   virtusa,
+  omind,
   edyoda,
   tesla,
   shopify,
@@ -38,10 +39,17 @@ import {
   threejs,
   python,
   cpp,
-  java
+  java,
+  cx,
+  bot,
+  assist,
 } from "../assets";
 
 export const navLinks = [
+  {
+    id: "resume",
+    title: "Resume",
+  },
   {
     id: "about",
     title: "About",
@@ -58,19 +66,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Back End Development",
     icon: webnew,
   },
   {
-    title: "React JS Developer",
+    title: "Front End Development",
     icon: reactLogo,
   },
   {
-    title: "Data Structures & Algorithms",
+    title: "SaaS & Customer Experience Products",
     icon: dsa,
   },
   {
-    title: "Machine Learning",
+    title: "AI & Machine Learning",
     icon: ml,
   },
 ];
@@ -136,51 +144,63 @@ const technologies = [
 
 const experiences = [
   {
-    title: "SDE",
+    title: "SDE-1",
+    company_name: "Omind",
+    icon: omind,
+    iconBg: "white",
+    date: "Feb 2024 - current",
+    points: [
+      "Designed the architecture of an AI-powered SaaS platform for customer experience enhancement, featuring a ReactJS frontend with monorepos, a Node.js/Express backend with microservices, and OLAP and SQL databases",
+      "Developed and implemented multi-channel campaign features (SMS, email, WhatsApp) successfully converting captured leads into customers for numerous clients",
+      "Developed automation tools such as segmentation and journeys to streamline targeted workflows, alongside developing diverse products like chatbots, email bots, and an omni-channel smart inbox"
+    ],
+  },
+  {
+    title: "SDE Intern",
     company_name: "Launcheazy",
     icon: launcheazylogo,
     iconBg: "white",
-    date: "Nov 2023 - current",
+    date: "Nov 2023 - Feb 2024",
     points: [
-      "Building the core product for the company using NextJS , Redux , ReactJS , Sass , Javascript, GrapesJS",
-      "Developing a digital marketplace frontend, showcasing a range of templates that empower users to streamline marketing efforts, simplifying the process for them"
+      "Engineered a comprehensive end to end drag-and-drop GrapesJS MJML editor using NextJS , React, GenAI, Redux integral to product success and internal workflows",
+      "Led the development of key features such as user sequences, campaigns, authentication features , and contact management, significantly enhancing lead capture and conversion for clients",
+      "Developed an in-house Design System by crafting numerous reusable components from scratch using TypeScript and React, integral to the entire project."
     ],
   },
-{
-  title: "SDE Intern",
+  {
+    title: "SDE Intern",
     company_name: "Edyoda",
-      icon: edyoda,
-        iconBg: "white",
-          date: "Aug 2023 - Nov 2023",
-            points: [
-              "Implemented optimizations that significantly reduced API call latency, enhancing user experience.",
-              "Designed and developed pages, features, and components from the ground up, playing a pivotal role in the successful launch of new products for the company.",
-              "Introduced a range of innovative components and features, including tooltips, pagination, and UI enhancements for the job platform.",
-            ],
+    icon: edyoda,
+    iconBg: "white",
+    date: "Aug 2023 - Nov 2023",
+    points: [
+      "Created a comprehensive, REST API-integrated instructor dashboard with tailored interfaces for diverse user roles featuring responsive design and intuitive functionality",
+      "Developed pages, features, and components from the ground up, playing a pivotal role in the successful launch of new products for the company.",
+      "Developed a range of innovative components and features, including tooltips, pagination, and UI enhancements",
+    ],
   },
-{
-  title: "Assciate Software Engineer",
+  {
+    title: "Software Engineer Intern",
     company_name: "Virtusa",
-      icon: virtusa,
-        iconBg: "#1a0c5f",
-          date: "Jan 2023 - July 2023",
-            points: [
-              "Developed responsive and user-friendly interfaces using modern front-end frameworks such as ReactJS",
-              "Designing and implementing RESTful APIs and integrating them with databases using technologies like Node.js, Express, and MongoDB.",
-              "Enhanced user experience by resolving API call latency , fixed bugs. ",
-            ],
+    icon: virtusa,
+    iconBg: "#1a0c5f",
+    date: "Jan 2023 - July 2023",
+    points: [
+      "Developed responsive and user-friendly interfaces using modern front-end frameworks such as ReactJS",
+      "Designing and implementing RESTful APIs and integrating them with databases using technologies like Node.js, Express, and MongoDB.",
+    ],
   },
-{
-  title: "Machine Learning Engineer",
+  {
+    title: "ML Intern",
     company_name: "TeknoGeeks",
-      icon: teknogeeks,
-        iconBg: "black",
-          date: "Apr 2022 - July 2023",
-            points: [
-              "Developed and implemented state-of-the-art neural networks, BERT models, and NLP techniques, resulting in a 15% increase in accuracy for sentiment analysis.",
-              "Leveraged TensorFlow and Keras to build robust and efficient models ,significantly reducing training time by 20%",
-              "Collaborated with a team of data scientists to tackle complex problems, resulting in the successful development of a chatbot with 90% customer satisfaction rating.",
-            ],
+    icon: teknogeeks,
+    iconBg: "black",
+    date: "Apr 2022 - July 2023",
+    points: [
+      "Developed and implemented state-of-the-art neural networks, BERT models, and NLP techniques, resulting in a 15% increase in accuracy for sentiment analysis.",
+      "Leveraged TensorFlow and Keras to build robust and efficient models ,significantly reducing training time by 20%",
+      "Collaborated with a team of data scientists to tackle complex problems, resulting in the successful development of a chatbot with 90% customer satisfaction rating.",
+    ],
   },
 
 ];
@@ -222,67 +242,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "VirtuShop",
+    name: "Composable CX",
     description:
-      "E-commerce platform with user authentication , sign in/log in functionality and global state management",
+      "Platform for marketers to convert leads into customers using whatsapp ,email & sms campaigns. Along with features like segmentation, configuration , automated workflows & journeys.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "kafka",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: cx,
+    // source_code_link: "https://github.com/Harsh7wardhan/VirtuShop",
+  },
+  {
+    name: "Chat Widget",
+    description:
+      "Developed a dynamic end-to-end chatbot that clients can embed on their websites with a script, enabling two-way conversations with visitors for real-time engagement using Socket.io",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "socket.io",
         color: "green-text-gradient",
       },
       {
-        name: "react-context-api",
+        name: "loopback",
         color: "pink-text-gradient",
       },
     ],
-    image: virtushop,
-    source_code_link: "https://github.com/Harsh7wardhan/VirtuShop",
+    image: bot,
+    // source_code_link: "https://github.com/Harsh7wardhan/LaunchEazy",
   },
   {
-    name: "BroadWay",
+    name: "Omni Channel Inbox",
     description:
-      "Shop for the latest & most popular E-mail templates. One stop solution for all your marketing needs.",
+      "Developed a omni-channel inbox, allowing agents to engage with leads from all channels in one unified view. This SaaS solution helps agents to communicate with leads from various channels .",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "socket.io",
         color: "pink-text-gradient",
       },
     ],
-    image: launcheazy,
-    source_code_link: "https://github.com/Harsh7wardhan/LaunchEazy",
-  },
-  {
-    name: "Threads",
-    description:
-      "Clone of the famous Threads app. A social media app with user authentication, posting & sign in / sign out functionalities.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: threads,
-    source_code_link: "https://github.com/Harsh7wardhan/Threads-Clone",
+    image: assist,
+    // source_code_link: "https://github.com/Harsh7wardhan/Threads-Clone",
   },
 ];
 
